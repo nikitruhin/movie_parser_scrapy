@@ -25,4 +25,4 @@ git clone https://github.com/nikitruhin/movie_parser_scrapy.git
 cd movie_parser_scrapy
 
 # Установите зависимости
-pip install -r requirements.txt вот тебе пример
+pip install -r requirements.txt 
