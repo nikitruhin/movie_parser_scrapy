@@ -21,5 +21,22 @@
 
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/nikitruhin/movie_parser_scrapy.git
+# Установка movie_parser_scrapy
 
+## 1. Клонирование репозитория
+```bash
+git clone https://github.com/nikitruhin/movie_parser_scrapy/tree/homework/Desktop/movie_parser_scrapy
+cd Desktop/movie_parser_scrapy
+```
+
+## 2. Установка зависимостей
+```bash
+pip install scrapy requests
+```
+
+## 3. Запуск парсера
+```bash
+python run.py
+```
+
+Готово! Результаты сохранятся в CSV-файле.
