@@ -19,24 +19,25 @@
 
 **Требования:** Python 3.8+
 
-```bash
-# Клонируйте репозиторий
-# Установка movie_parser_scrapy
+# Установка и запуск movie_parser_scrapy
 
 ## 1. Клонирование репозитория
 ```bash
-git clone https://github.com/nikitruhin/movie_parser_scrapy/tree/homework/Desktop/movie_parser_scrapy
-cd Desktop/movie_parser_scrapy
+git clone https://github.com/nikitruhin/movie_parser_scrapy.git
 ```
 
-## 2. Установка зависимостей
+## 2. Переход в папку с run.py
+```bash
+cd movie_parser_scrapy/Desktop/movie_parser_scrapy/movie_parser_scrapy
+```
+
+## 3. Установка зависимостей
 ```bash
 pip install scrapy requests
 ```
 
-## 3. Запуск парсера
+## 4. Запуск run.py
 ```bash
 python run.py
 ```
-
 Готово! Результаты сохранятся в CSV-файле.
